@@ -21,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .buttons-top {
   display: flex;
@@ -89,4 +90,17 @@ body {
   border-radius: 50%;
   margin-top: 40px;
   margin-left: 43px;
+}
+.reflex {
+  width: 220px;
+  height: 110px;
+  background-color: lightgrey;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  opacity: 0.5;
+  position: absolute;
+  top: 60px;
+  left: 88px;
+  transform: rotate(-50deg);
+  opacity: 0.5;
 }
